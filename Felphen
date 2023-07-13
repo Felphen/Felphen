@@ -1,4 +1,22 @@
-git add .
-git commit -m "Add JavaScript file"
-git push origin master
+git clone https://github.com/Felphen/repository.git
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>This is a sample paragraph.</p>
+</body>
+</html>
+
+document.addEventListener('DOMContentLoaded', function() {
+  var heading = document.querySelector('h1');
+  heading.style.color = 'blue';
+});
+
+git add .
+git commit -m "Add HTML and JavaScript files"
+git push origin master
